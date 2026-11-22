@@ -4,13 +4,7 @@ A minimal, well-documented **tool-using AI agent** in TypeScript, built directly
 [Anthropic Claude API](https://docs.anthropic.com/en/api/messages). No agent framework —
 just a clean, readable implementation of the **agentic loop** you can learn from and build on.
 
-```
-you › what is (12.5 * 8) + 3, and what time is it in Tokyo?
-   ↳ calculator({"expression":"(12.5 * 8) + 3"})
-   ↳ current_time({"timezone":"Asia/Tokyo"})
-
-agent › (12.5 × 8) + 3 = 103. It's currently Tuesday, 11:42 PM in Tokyo.
-```
+<p align="center"><img src="demo.svg" alt="claude-agent-starter demo — a tool-using agent answering a math + time question" width="760"></p>
 
 ## What it demonstrates
 

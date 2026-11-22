@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="248" viewBox="0 0 820 248" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+  <rect width="820" height="248" rx="10" fill="#0D1117"/>
+  <path d="M0 10 a10 10 0 0 1 10 -10 h800 a10 10 0 0 1 10 10 v26 h-820 z" fill="#161B22"/>
+  <circle cx="22" cy="18" r="6" fill="#FF5F56"/>
+  <circle cx="42" cy="18" r="6" fill="#FFBD2E"/>
+  <circle cx="62" cy="18" r="6" fill="#27C93F"/>
+  <text x="410" y="23" fill="#8B949E" text-anchor="middle" font-size="13">claude-agent-starter</text>
+  <text x="24" y="70" fill="#E6EDF3" xml:space="preserve">
+    <tspan x="24"><tspan fill="#58A6FF">$</tspan> npm start</tspan>
+    <tspan x="24" dy="27" fill="#8B949E">claude-agent-starter — a tool-using AI agent.</tspan>
+    <tspan x="24" dy="34"><tspan fill="#7EE787" font-weight="bold">you ›</tspan> what is (12.5 * 8) + 3, and the time in Tokyo?</tspan>
+    <tspan x="24" dy="27" fill="#79C0FF">   ↳ calculator({"expression":"(12.5 * 8) + 3"})</tspan>
+    <tspan x="24" dy="24" fill="#79C0FF">   ↳ current_time({"timezone":"Asia/Tokyo"})</tspan>
+    <tspan x="24" dy="34"><tspan fill="#D2A8FF" font-weight="bold">agent ›</tspan> (12.5 × 8) + 3 = 103. It's 11:42 PM Tuesday in Tokyo.</tspan>
+  </text>
+</svg>
