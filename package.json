@@ -1,0 +1,29 @@
+{
+  "name": "claude-agent-starter",
+  "version": "1.0.0",
+  "description": "A minimal, well-documented tool-using AI agent in TypeScript, built on the Anthropic Claude API — a clean reference for the agentic loop.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Iniyarajan",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "keywords": [
+    "anthropic",
+    "claude",
+    "ai-agent",
+    "tool-use",
+    "typescript",
+    "llm"
+  ],
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
